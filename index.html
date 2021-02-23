@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="shortcut icon" href="assets/img/GoldenV2Logo_3.png" type="image/png">
+  <title>Task</title>
+</head>
+<body>
+  <header>
+    <div id="header-block">
+      <div class="header-top-menu">
+        <a href="index.html" id="header-logo"></a>
+        <button class="btn-close btn-hide">
+          <img src="assets/img/close.png" alt="Close menu">
+        </button>
+      </div>
+      <button class="btn-burger btn-active">
+        <img src="assets/img/menu.png" alt="Menu">
+      </button>
+      <div id="header-menu" class="header-menu-open">
+        <div class="header-menu-links">
+          <a class="header-menu-link-idea link" href="#ideja">Ideja</a>
+          <a class="header-menu-link-second link" href="#piesaki-sapni">Piesaki Sapni</a>
+          <a class="header-menu-link-entrepreneurs link" href="#uznemejiem">Uzņēmējiem</a>
+          <a class="header-menu-link-dreams link" href="#sapnu-banka">Sapņu banka</a>
+          <a class="header-menu-link-sponsors link" href="#sapnus-atbalsta">Sapņus atbalsta</a>
+          <a class="header-menu-link-last link" href="#99-iedvesmas-stasti">99 Iedvesmas stāsti</a>
+        </div>
+          <div class="change-language">
+            <a class="change lv active link" href="#lv">LV</a>
+            <a class="change eng language-hidden hidden link" href="#eng">EN</a>
+            <a class="change ru language-hidden hidden link" href="#ru">RU</a>
+          </div>
+        </div>
+    </div>
+  </header>
+  <div class="under-header">
+    <div class="header-image">
+      <div class="header-image-play">
+        <a href="#video-play">
+          <img src="assets/img/Vector.png" class="header-image-play-icon" alt="Ieslēgt video">
+        </a>
+      </div>
+    </div>
+  </div>
+  <main>
+    <div class="main-information">
+      <p class="main-information-content">
+        SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus. Šeit satiekas sapņotāji
+        un viņu atbalstītāji - uzņēmumi, kas sniedz palīdzīgu roku, lai kopā pasauli padarītu par labāku vietu mums visiem.Mēs
+        esam gatavi palīdzēt Tev piepildīt sapni. Kā pamats iedvesmai - tiek radīti arī 99 stāsti par Latvijas sievietēm.
+      </p>
+    </div>
+    <div class="photo-container">
+      <div class="top-photo-container photo-container-line"></div>
+      <div class="photo-container-gallery">
+        <img class="photo-container-gallery-first" src="assets/img/Zanda_1.jpg" alt="Zanda">
+        <img class="photo-container-gallery-second" src="assets/img/Sibilla_4.jpg" alt="Sibilla">
+          <div class="photo-container-gallery-block">
+            <img class="photo-container-gallery-second photo-container-gallery-third" src="assets/img/Brinuma_meita-15.jpg" alt="Brīnuma meita">
+            <img class="photo-container-gallery-fourth" src="assets/img/Alina_1_1.jpg" alt="Alina">
+          </div>
+        <img class="photo-container-gallery-five" src="assets/img/Anda_2_1.jpg" alt="Anda">
+      </div>
+      <div class="photo-container-gallery-mobile">
+        <div class="photo-container-gallery-mobile-block">
+          <img class="photo-container-gallery-mobile-first photo-container-gallery-mobile-photo" src="assets/img/Brinuma_meita-15.jpg" alt="Brīnuma meita">
+          <img class="photo-container-gallery-mobile-second" src="assets/img/Alina_1_1.jpg" alt="Alina">
+        </div>
+        <img class="photo-container-gallery-mobile-third" src="assets/img/Anda_2_1.jpg" alt="Anda">
+        <img class="photo-container-gallery-four" src="assets/img/Zanda_1.jpg" alt="Zanda">
+        <img class="photo-container-gallery-five-img" src="assets/img/Sibilla_4_mobile.png" alt="Sibilla">
+      </div>
+      <div class="bottom-photo-container photo-container-line"></div>
+    </div>
+    <div class="container-box">
+      <div class="container-box-item container-box-item-first container-box-active">
+        <p class="container-title container-title-first container-title-active">Vēlies piepildīt savu sapni?</p>
+        <a href="#sapnotajiem" class="container-button container-button-first">Sapņotājiem</a>
+      </div>
+      <div class="container-box-item container-box-active container-box-item-second">
+        <p class="container-title container-title-second">Vēlies palīdzēt kādām piepildīt sapni?</p>
+        <a href="#uznemejiem" class="container-button container-button-second">Uzņēmējiem</a>
+      </div>
+      <div class="container-box-item container-box-hide container-box-item-first">
+        <p class="container-title container-title-second">Vēlies palīdzēt kādām piepildīt sapni?</p>
+        <a href="#sapnotajiem" class="container-button container-button-first">Sapņotājiem</a>
+      </div>
+      <div class="container-box-item container-box-hide">
+        <p class="container-title container-title-first">Vēlies piepildīt savu sapni?</p>
+        <a href="#uznemejiem" class="container-button container-button-second">Uzņēmējiem</a>
+      </div>
+    </div>
+    <div class="container-contact">
+      <p class="contact-form-title">Sazināties ar mums</p>
+      <div class="contact-form">
+        <form action="index.html" method="POST">
+          <div class="contact-form-name-email">
+            <input class="contact-form-input contact-form-input-first contact-form-input-name" type="text" placeholder="Vārds, Uzvārds*" required>
+            <input class="contact-form-input contact-form-input-first" type="email" placeholder="E-pasts*" required>
+          </div>
+          <input class="contact-form-input contact-form-input-second" type="tel" placeholder="Telefons*" minlength="8" required>
+          <textarea class="contact-form-input contact-form-textarea" name="contact-form-comment" id="contact-form-textarea-id" placeholder="Jautājums, vai komentārs*" required></textarea>
+          <p class="contact-form-required">* obligāti aizpildāmie lauki</p>
+          <div class="contact-form-consent-terms">
+            <input type="checkbox" class="contact-form-checkbox" id="checkbox" onclick="clickSubmit()">
+            <p class="contact-form-required contact-form-checkbox-text">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā
+                kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.</p>
+            </div>
+          <div class="submit-button">
+            <button class="contact-form-submit-button disabled" type="submit">Sūtīt</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="container-sponsors">
+      <p class="container-sponsors-title">Atbalstītāji</p>
+      <div class="container-sponsors-content">
+        <div class="container-sponsors-item container-sponsors-item-first">
+          <img src="assets/img/Teikums-logo_1.png" alt="">
+        </div>
+        <div class="container-sponsors-item container-sponsors-item-second">
+           <img src="assets/img/sem.png" alt="">
+        </div>
+        <div class="container-sponsors-item container-sponsors-item-third">
+          <img src="assets/img/Citybee-logo_1.png" alt="">
+        </div>
+        <div class="container-sponsors-item-fourth">
+          <img src="assets/img/linearis.png" alt="">
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-box-item">
+      <a href="index.html">
+        <img src="assets/img/GoldenV2Logo_3.png" alt="">
+      </a>
+      <p class="footer-name">Juris Gogulis</p>
+      <p class="footer-box-item-text">&copy; SparkleHeart 2020. Visas tiesības aizsargātas.</p>
+    </div>
+    <div class="footer-box-links">
+      <a class="footer-box-links-first footer-box-links-idea" href="#ideja">Ideja</a>
+      <a class="footer-box-links-first" href="#piesaki-sapni">Piesaki Sapni</a>
+      <a class="footer-box-links-first footer-links footer-box-links-entrepreneurs" href="#uznemejiem">Uzņēmējiem</a>
+      <a class="footer-box-links-second " href="#sapnu-banka">Sapņu banka</a>
+      <a class="footer-box-links-second" href="#sapnus-atbalsta">Sapņus atbalsta</a>
+      <a class="footer-box-links-last" href="#iedvesmas-stasti">Iedvesmas stāsti</a>
+    </div>
+    <div class="footer-box-payment">
+      <p class="footer-box-payment-title">Biedrība SparkleHeart</p>
+      <p class="footer-box-payment-text footer-box-payments-reg-nr">Reģistrācijas nr. 40008293119</p>
+      <p class="footer-box-payment-text footer-box-payment-second">Banka: SWEDBANK A/S</p>
+      <p class="footer-box-payment-text footer-box-payment-third">LV52HABA0551047652465</p>
+    </div>
+    <div class="footer-box-contacts">
+      <p class="footer-box-contacts-name">Juris Gogulis</p>
+      <div class="footer-box-contacts-links">
+        <a class="footex-box-contacts-link-text footex-box-contacts-text footer-box-contacts-email" href="mailto:juris.gogulis@sparkleheart.org">juris.gogulis@sparkleheart.org</a>
+        <a class="footex-box-contacts-link-text footex-box-contacts-text footer-box-contacts-tel" href="tel:+37126890034">+37126890034</a>
+      </div>
+      <p class="footex-box-contacts-text footer-box-contacts-address">Biķernieku iela 24a - 5, LV-1006</p>
+      <a class="footer-box-contacts-link-text footer-box-prop" href="#rekviziti">Skatīt rekvizītus</a>
+      <div class="footer-box-icons">
+        <a class="footer-facebook-icon" href="#facebook">
+          <img src="assets/img/facebook.png" alt="">
+        </a>
+        <a class="footer-instagram-icon" href="#instagram">
+          <img src="assets/img/instagram.png" alt="">
+        </a>
+      </div>
+      <div class="footer-private">
+        <p class="footer-box-item-text footer-hide">&copy; SparkleHeart 2020. Visas tiesības aizsargātas.</p>
+        <a href="#privatuma-politika" class="footer-box-private">Privātuma politika</a>
+      </div>
+    </div>
+  </footer>
+  <a class="back-to-top" title="Top">&#8593;</a>
+  <script src="assets/js/theme.js"></script>
+</body>
+</html>
